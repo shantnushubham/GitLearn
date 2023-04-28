@@ -6,4 +6,9 @@ def add_two_numbers(a: int, b: int) -> None:
     return a + b
 
 
+def subtract_two_numbers(a: int, b: int) -> None:
+    return a - b
+
+
 print(add_two_numbers(num1, num2))
+print(subtract_two_numbers(num1, num2))
